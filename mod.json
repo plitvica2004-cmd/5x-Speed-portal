@@ -6,11 +6,11 @@
 		"mac": "2.2081",
 		"ios": "2.2081"
 	},
-	"id": "$MOD_ID",
-	"name": "$MOD_NAME",
+	"id": "speed5xmod",
+	"name": "5x Speed Portal",
 	"version": "v1.0.0",
-	"developer": "$MOD_DEVELOPER",
-	"description": "$MOD_DESCRIPTION",
+	"developer": "Plitvica2004-cmd",
+	"description": "Adds a 5x speed portal to the Geometry Dash editor",
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
 	}
