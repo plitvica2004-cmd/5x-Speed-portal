@@ -11,7 +11,6 @@ bool MyEditorUI::init(LevelEditorLayer* editorLayer) {
             auto items = CCArray::create();
 
             auto obj = this->getCreateBtn(203, 4);
-
             if (obj)
                 items->addObject(obj);
 
@@ -31,6 +30,5 @@ bool MyEditorUI::init(LevelEditorLayer* editorLayer) {
         }
     );
 
-    log::info("5X EDITOR TAB ADDED!");
     return true;
 }
