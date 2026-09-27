@@ -15,11 +15,11 @@ class $modify(MyPlayLayer, PlayLayer) {
 };
 
 class $modify(MyEditorUI, EditorUI) {
-    void selectObject(GameObject* object, bool ignoreFilter) {
-        if (object) {
-            log::info("Selected object ID: {}", object->m_objectID);
-        }
+    bool init(LevelEditorLayer* editorLayer) {
+        if (!EditorUI::init(editorLayer))
+            return false;
 
-        EditorUI::selectObject(object, ignoreFilter);
+        log::info("EDITOR UI INIT FIRED!");
+        return true;
     }
 };
